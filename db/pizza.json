@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pi1",
+        "title": "Баварская",
+        "price": 480,
+        "img": "photo-9.jpg",
+        "weight": 680,
+        "diametr": 33,
+        "kkal": 1350,
+        "counter": 1
+    }, {
+        "id": "pi2",
+        "title": "Вегетарианская",
+        "price": 1590,
+        "img": "photo-10.jpg",
+        "weight": 755,
+        "diament": 33,
+        "kkal": 1800,
+        "counter": 1
+    }, {
+        "id": "pi3",
+        "title": "Пепперони",
+        "price": 450,
+        "img": "photo-11.jpg",
+        "weight": 615,
+        "diament": 33,
+        "kkal": 1400,
+        "counter": 1
+    }, {
+        "id": "pi4",
+        "title": "Классическая",
+        "price": 390,
+        "img": "photo-12.jpg",
+        "weight": 590,
+        "diametr": 33,
+        "kkal": 1490,
+        "counter": 1
+    },
+    {
+        "id": "pi5",
+        "title": "Грибная",
+        "price": 1000,
+        "img": "photo-10.jpg",
+        "weight": 960,
+        "diametr": 24,
+        "kkal": 800,
+        "counter": 1
+    }, {
+        "id": "pi6",
+        "title": "Сырная",
+        "price": 710,
+        "img": "photo-8.jpg",
+        "weight": 450,
+        "diametr": 14,
+        "kkal": 400,
+        "counter": 1
+    }, {
+        "id": "pi7",
+        "title": "Хит",
+        "price": 490,
+        "img": "photo-12.jpg",
+        "weight": 460,
+        "diametr": 16,
+        "kkal": 490,
+        "counter": 1
+    }
+  ]

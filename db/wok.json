@@ -1,0 +1,62 @@
+[
+    {
+        "id": "wo1",
+        "title": "С говядиной",
+        "price": 430,
+        "img": "photo-13.jpg",
+        "weight": 400,
+        "kkal": 1350,
+        "counter": 1
+    }, {
+        "id": "wo2",
+        "title": "С курицей",
+        "price": 290,
+        "img": "photo-14.jpg",
+        "weight": 960,
+        "itemsInBox": 24,
+        "kkal": 800,
+        "counter": 1
+    }, {
+        "id": "wo3",
+        "title": "С морепродуктами",
+        "price": 430,
+        "img": "photo-15.jpg",
+        "weight": 400,
+        "kkal": 1350,
+        "counter": 1
+    }, {
+        "id": "wo4",
+        "title": "С овощами",
+        "price": 430,
+        "img": "photo-4.jpg",
+        "weight": 400,
+        "kkal": 1350,
+        "counter": 1
+    },
+    {
+        "id": "wo5",
+        "title": "Вегетарианская",
+        "price": 530,
+        "img": "photo-13.jpg",
+        "weight": 960,
+        "kkal": 800,
+        "counter": 1
+    }, {
+        "id": "wo6",
+        "title": "С индейкой",
+        "price": 710,
+        "img": "photo-1.jpg",
+        "weight": 450,
+        "kkal": 400,
+        "counter": 1
+    }, {
+        "id": "wo7",
+        "title": "С телятиной",
+        "price": 490,
+        "img": "photo-3.jpg",
+        "weight": 460,
+        "itemsInBox": 16,
+        "kkal": 490,
+        "counter": 1
+    }
+  ]

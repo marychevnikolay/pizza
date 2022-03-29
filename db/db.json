@@ -1,0 +1,459 @@
+{
+   "sets": [
+      {
+       "id":"0001",
+         "name": "Сет №10",
+         "foodValue": "72 шт. | 1560 г. | 1700 Kkal",
+         "price": 2050,
+         "image": "sets/set-1.jpg",
+          "cartImg": "cart/set-1.jpg",
+         
+         "sauce": false,
+         "popular": true,
+         "vegetarian": true,
+         "new": true,
+         "spicy": true
+
+      },
+      {
+      "id":"0002",
+         "name": "Сет №8",
+         "foodValue": "24 шт. | 960 г. | 800 Kkal",
+         "price": 1590,
+         "image": "sets/set-2.jpg",
+          "cartImg": "cart/set-2.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": true,
+         "spicy": false
+      },
+      {
+      "id" :"0003",
+         "name": "Минисет №5",
+         "foodValue": "14 шт. | 450 г. | 400 Kkal",
+         "price": 510,
+         "image": "sets/set-3.jpg",
+          "cartImg": "cart/set-3.jpg",
+        
+         "sauce": false,
+         "popular": true,
+         "vegetarian": false,
+         "new": true,
+         "spicy": false
+      },
+      {
+      "id":"0004",
+         "name": "Сет №6",
+         "foodValue": "16 шт. | 460 г. | 490 Kkal",
+         "price": 400,
+         "image": "sets/set-4.jpg",
+          "cartImg": "cart/set-4.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": true,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"0005",
+         "name": "Сет №1",
+         "foodValue": "42 шт. | 780 г. | 1200 Kkal",
+         "price": 850,
+         "image": "sets/set-5.jpg",
+          "cartImg": "cart/set-5.jpg",
+        
+         "sauce": false,
+         "popular": true,
+         "vegetarian": false,
+         "new": false,
+         "spicy": true
+      },
+      {
+      "id":"0006",
+         "name": "Сет №8",
+         "foodValue": "24 шт. | 960 г. | 700 Kkal",
+         "price": 950,
+         "image": "sets/set-6.jpg",
+          "cartImg": "cart/set-6.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": true,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"0007",
+         "name": "Минисет №5",
+         "foodValue": "8 шт. | 480 г. | 430 Kkal",
+         "price": 510,
+         "image": "sets/set-7.jpg",
+          "cartImg": "cart/set-7.jpg",
+        
+         "sauce": false,
+         "popular": true,
+         "vegetarian": false,
+         "new": false,
+         "spicy": true
+      },
+      {
+      "id":"0008",
+         "name": "Сет №6",
+         "foodValue": "54 шт. | 2100 г. | 1900 Kkal",
+         "price": 2400,
+         "image": "sets/set-8.jpg",
+          "cartImg": "cart/set-8.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": true,
+         "new": false,
+         "spicy": false
+      }
+   ],
+   "rolls": [
+      {
+      "id":"1001",
+         "name": "Кунсей батакон",
+         "foodValue": "8 шт. | 250 г. | 350 Kkal",
+         "price": 260,
+         "image":"rolls/roll-1.jpg",
+          "cartImg": "cart/roll-1.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"1002",
+         "name": "Унаги диру",
+         "foodValue": "8 шт. | 960 г. | 800 Kkal",
+         "price": 280,
+         "image":"rolls/roll-2.jpg",
+          "cartImg": "cart/roll-2.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+         "id":"1003",
+         "name": "Филадельфия",
+         "foodValue": "8 шт. | 450 г. | 400 Kkal",
+         "price": 280,
+         "image": "rolls/roll-3.jpg",
+          "cartImg": "cart/roll-3.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"1004",
+         "name": "Мексиканский",
+         "foodValue": "8 шт. | 460 г. | 490 Kkal",
+         "price": 290,
+         "image": "rolls/roll-4.jpg",
+          "cartImg": "cart/roll-4.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+         "id":"1005",
+            "name": "Бангало",
+            "foodValue": "8 шт. | 267 г. | 390 Kkal",
+            "price": 320,
+            "image": "rolls/roll-5.jpg",
+             "cartImg": "cart/roll-5.jpg",
+           
+            "sauce": false,
+            "popular": false,
+            "vegetarian": false,
+            "new": false,
+            "spicy": false
+         
+      },
+      {
+         "id":"1006",
+            "name": "Лиана",
+            "foodValue": "8 шт. | 275 г. | 261 Kkal",
+            "price": 450,
+            "image": "rolls/roll-6.jpg",
+             "cartImg": "cart/roll-6.jpg",
+           
+            "sauce": false,
+            "popular": false,
+            "vegetarian": false,
+            "new": false,
+            "spicy": false
+         
+      },
+      {
+         "id":"1007",
+            "name": "Канада",
+            "foodValue": "8 шт. | 270 г. | 290 Kkal",
+            "price": 420,
+            "image": "rolls/roll-7.jpg",
+             "cartImg": "cart/roll-7.jpg",
+           
+            "sauce": false,
+            "popular": false,
+            "vegetarian": false,
+            "new": false,
+            "spicy": false
+         
+      },
+      {
+         "id":"1008",
+            "name": "Бангало",
+            "foodValue": "8 шт. | 290 г. | 350 Kkal",
+            "price": 470,
+            "image": "rolls/roll-8.jpg",
+             "cartImg": "cart/roll-8.jpg",
+            "sauce": false,
+            "popular": false,
+            "vegetarian": false,
+            "new": false,
+            "spicy": false
+         
+      }
+   ],
+   
+   "pizza": [
+      {
+      "id":"2001",
+         "name": "Баварская",
+         "foodValue": "33 см | 680 г. | 1350 Kkal",
+         "price": 480,
+         "image": "pizza/pizza-1.jpg",
+          "cartImg": "cart/pizza-1.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2002",
+         "name": "Вегетарианская",
+         "foodValue": "33 см | 755 г. | 1800 Kkal",
+         "price": 380,
+         "image": "pizza/pizza-2.jpg",
+          "cartImg": "cart/pizza-2.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2003",
+         "name": "Пепперони",
+         "foodValue": "33 см | 615 г. | 1400 Kkal",
+         "price": 450,
+         "image":"pizza/pizza-3.jpg",
+          "cartImg": "cart/pizza-3.jpg",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2004",
+         "name": "Классическая",
+         "foodValue": "33 см | 590 г. | 1490 Kkal",
+         "price": 390,
+         "image":"pizza/pizza-4.jpg",
+          "cartImg": "cart/pizza-4.jpg",
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2005",
+         "name": "Аляска",
+         "foodValue": "33 см | 850 г. | 1850 Kkal",
+         "price": 5400,
+         "image":"pizza/pizza-4.jpg",
+          "cartImg": "cart/pizza-4.jpg",
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2006",
+         "name": "Бавария",
+         "foodValue": "33 см | 690 г. | 1080 Kkal",
+         "price": 520,
+         "image":"pizza/pizza-6.jpg",
+          "cartImg": "cart/pzza-6.jpg",
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2007",
+         "name": "Классическая",
+         "foodValue": "33 см | 870 г. | 860 Kkal",
+         "price": 590,
+         "image":"pizza/pizza-7.jpg",
+          "cartImg": "cart/pizza-7.jpg",
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+      "id":"2008",
+         "name": "Куриный жульен",
+         "foodValue": "33 см | 980 г. | 1280 Kkal",
+         "price": 520,
+         "image":"pizza/pizza-8.jpg",
+          "cartImg": "cart/pizza-8.jpg",
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      }
+   ],
+
+   "wok": [
+      {
+          "id": "3001",
+          "name": "С говядиной",
+          "price": 430,
+          "image": "wok/wok-1.jpg",
+           "cartImg": "cart/wok-1.jpg",
+         "foodValue": "400 | 1350 kkal",
+          "sauce": true,
+          "popular": false,
+          "vegetarian": false,
+          "new": false,
+          "spicy": false
+          
+      }, 
+      {
+          "id": "3002",
+          "name": "С курицей",
+          "price": 290,
+          "image": "wok/wok-2.jpg",
+           "cartImg": "cart/wok-2.jpg",
+          "foodValue": "400 | 1350 kkal",
+          "sauce": true,
+          "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      }, 
+      {
+          "id": "3003",
+          "name": "С морепродуктами",
+          "price": 430,
+          "image": "wok/wok-3.jpg",
+           "cartImg": "cart/wok-3.jpg",
+           "foodValue": "400 | 1350 kkal",
+          "sauce": true,
+          "popular": false,
+          "vegetarian": false,
+          "new": false,
+          "spicy": false
+      }, 
+      {
+          "id": "3004",
+          "name": "С овощами",
+          "price": 430,
+          "image": "wok/wok-4.jpg",
+           "cartImg": "cart/wok-4.jpg",
+           "foodValue": "400 | 1350 kkal",
+         
+          "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+          
+      },
+      {
+          "id": "3005",
+          "name": "Тяхан",
+          "price": 430,
+          "image": "wok/wok-5.jpg",
+           "cartImg": "cart/wok-5.jpg",
+           "foodValue": "400 | 1350 kkal",
+         
+          "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false 
+      }, 
+      {
+          "id": "3006",
+          "name": "Соба",
+          "price": 290,
+          "image": "wok/wok-6.jpg",
+           "cartImg": "cart/wok-6.jpg",
+           "foodValue": "400 | 1350 kkal",
+         
+         
+          "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+          
+      }, 
+      {
+          "id": "3007",
+          "name": "Удон",
+          "price": 430,
+          "image": "wok/wok-7.jpg",
+           "cartImg": "cart/wok-7.jpg",
+           "foodValue": "400 | 1350 kkal",
+        
+         "sauce": false,
+         "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      },
+      {
+          "id": "3008",
+          "name": "Рамен",
+          "price": 430,
+          "image": "wok/wok-8.jpg",
+           "cartImg": "cart/wok-8.jpg",
+          "foodValue": "400 | 1350 kkal",
+          "sauce": true,
+          "popular": false,
+         "vegetarian": false,
+         "new": false,
+         "spicy": false
+      } 
+   ]
+}

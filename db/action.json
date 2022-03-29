@@ -1,0 +1,50 @@
+[
+    {
+        "id": "ac1",
+        "title": "С говядиной",
+        "price": 430,
+        "img": "photo-13.jpg",
+        "weight": 400,
+        "kkal": 1350,
+        "counter": 1
+    },
+    {
+        "id": "ac2",
+        "title": "С курицей",
+        "price": 290,
+        "img": "photo-14.jpg",
+        "weight": 960,
+        "itemsInBox": 24,
+        "kkal": 800,
+        "counter": 1
+    }, 
+    {
+        "id": "ac3",
+        "title": "Пепперони",
+        "price": 450,
+        "img": "photo-11.jpg",
+        "weight": 615,
+        "diament": 33,
+        "kkal": 1400,
+        "counter": 1
+    }, {
+        "id": "ac4",
+        "title": "Классическая",
+        "price": 390,
+        "img": "photo-12.jpg",
+        "weight": 590,
+        "diametr": 33,
+        "kkal": 1490,
+        "counter": 1
+    },
+    {
+        "id": "ac5",
+        "title": "Грибная",
+        "price": 1000,
+        "img": "photo-10.jpg",
+        "weight": 960,
+        "diametr": 24,
+        "kkal": 800,
+        "counter": 1
+    }
+]

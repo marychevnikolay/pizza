@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miushi</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="main-logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="main-adress block">
+                    <img src="img/maps-and-flags.svg" alt="">
+                    <p class="text--black">г.Курск ул.Ленина, д.3</p>
+                </div>
+                <div class="main-email block">
+                    <img src="img/envelope.svg" alt="">
+                    <p class="text--black">78003332222@yandex.ru</p>
+                </div>
+                <div class="main-tel">
+                    <div class="main-tel-work">
+                        +7(800) 333 2 222
+                        <p>Работаем с 11 до 23</p>
+                    </div>
+                </div>
+                <button class="btn btn-main">Обратный звонок</button>
+            </div>
+            <div class="main-wrap">
+                <div class="nav">
+                    
+                    <nav class="menu--wrapper">
+                        <ul class="menu--list">
+                            <li class="menu--item"><a class="nav-text p-25" href="#">Меню</a></li>
+                            <li class="menu--item"><a class="nav-text p-25" href="#">акции и скидки</a></li>
+                            <li class="menu--item"><a class="nav-text p-25" href="#">доставка и оплата</a></li>
+                            <li class="menu--item"><a class="nav-text p-25" href="#">новости</a></li>
+                            <li class="menu--item"><a class="nav-text p-25" href="#">контакты</a></li>
+                            <li class="menu--info">
+                                <div class="main-adress">
+                                    <img src="img/maps-and-flags.svg" alt="">
+                                    <p class="text--black">г.Курск ул.Ленина, д.3</p>
+                                </div>
+                                <div class="main-email">
+                                    <img src="img/envelope.svg" alt="">
+                                    <p class="text--black">78003332222@yandex.ru</p>
+                                </div>
+                            </li>
+                        </ul>
+                       
+                    </nav>
+                    <div class="menu">
+                        <span class="menu--line"></span>
+                        <span class="menu--line"></span>
+                        <span class="menu--line"></span>
+                    </div>
+                </div>
+               
+                <div class="main-office">
+                    <img src="img/users.svg" alt="">
+                    <p  class="text-uppercase">кабинет</p>
+                </div>
+                <!-- <div class="main-cart">
+                    <a href="#" id="cart">
+                        <img src="img/cart.svg" alt="">
+                        <span class="counter">0</span>
+                        корзина
+                    </a>
+                </div> -->
+                <button class="button button-cart" id="cart-button">
+                    <img class="cart--img" src="img/cart.svg" alt="">
+                    <!-- <span class="counter">0</span> -->
+                    <span  class="text-uppercase">Корзина</span>    
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="header">
+        <div class="container">
+            <div class="header-title">
+                <div class="header-title-item">
+                    <h1>Счастливые<br> часы</h1>
+                    <p>скидка<br> 15%</p>
+                </div>
+                <p>с 11:00 до 16:00 в будние дни</p>
+                <button class="btn btn-header">подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="goods">
+        <div class="container">
+            <div class="wrapper-cards">
+                <h2 class="goods__title title">сеты</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper goods__item sets-products">
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                     
+                </div>
+               <!--  <ul class="goods__list" id="sets">
+                    <li class="goods__item"> -->
+                
+                    <!-- </li> -->
+                <!-- </ul> -->
+            </div>
+
+            <div class="wrapper-cards">
+                <h2 class="goods__title title">roll</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper goods__item rolls-products">
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                     
+                </div>
+            </div>
+
+            <div class="wrapper-cards">
+                <h2 class="goods__title title">pizza</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper goods__item pizza-products">
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                     
+                </div>
+            </div>
+
+             <div class="wrapper-cards">
+                <h2 class="goods__title title">wok</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper goods__item wok-products">
+                        
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dignity">
+        <div class="container">
+            <div class="dignity-title">
+                <img class="image" src="img/left.png" alt="">
+                <h2 class="title">10 причин купить у нас</h2> 
+                <img class="image" src="img/right.png" alt="">
+            </div>
+            <div class="dignity-wrapper">
+                <div class="dignity-wrapper-item">
+                    <img src="img/kitchen.svg" alt="">
+                    <h5 class="text--gray">100% ручная работа</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/dish.svg" alt="">
+                    <h5 class="text--gray">100% свежие индигриенты</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/money.svg" alt="">
+                    <h5 class="text--gray">Самые низкие цены на рынке! (Нет ресторанной накрутки)</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/like.svg" alt="">
+                    <h5 class="text--gray">Постоянный контроль качества на всех этапах</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/fish.svg" alt="">
+                    <h5 class="text--gray">Только охлажденная рыба (никакой заморзки)</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/rice.svg" alt="">
+                    <h5 class="text--gray">Мы использовали только дорогой рис из Японии</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/octopus.svg" alt="">
+                    <h5 class="text--gray">Больше начинки, меньше риса!</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/noun_709956_cc.svg" alt="">
+                    <h5 class="text--gray">Мы не заменяем авакадо огурцом</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/pizza.svg" alt="">
+                    <h5 class="text--gray">Вся пицца готовится их итальянской муки и Итальянского соуса</h5>
+                </div>
+                <div class="dignity-wrapper-item">
+                    <img src="img/feather-hand-drawn-outline.svg" alt="">
+                    <h5 class="text--gray">Мы не используем майонез</h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="report">
+        <div class="container">
+            <div class="report-title">
+                <img class="image" src="img/left.png" alt="">
+                <h2 class="title">Отзывы</h2> 
+                <img class="image" src="img/right.png" alt="">
+            </div>
+            <div class="report-wrapper">
+                <div class="report-wrapper-card">
+                    <div class="report-wrapper-card_wrap">
+                        <div class="report-wrapper-card_item">
+                            <div class="report-wrapper-card_circul">
+                            </div> 
+            
+                            <div class="report-wrapper-card_title">
+                                <h5 class="text--title">Надежда Наширбанова</h5>
+                                5 авг 2017 в 9:55
+                            </div>
+                        </div>  
+                        <div class="report-wrapper-card_span">
+                            <p class="text-report">Спасибо за быструю доставку! Отличный поздний ужин после рабочего дня</p>
+                        </div>
+                        <div class="report-wrapper-card_img">
+                            <img src="img/report4.jpg" alt="">
+                            <span></span>
+                            <div class="report-wrapper-card_social">
+                                <img src="img/heart.svg" alt="">
+                                <div class="report-wrapper-span">
+                                    <img src="img/chat.svg" alt="">2
+                                </div>
+                                <img src="img/megaphone.svg" alt="">
+                            </div>
+                        </div>
+                        <button class="btn btn-report"><img src="img/vk-logo.svg" alt="">Подписаться</button>
+                    </div>  
+                </div>
+                <div class="report-wrapper-card">
+                    <div class="report-wrapper-card_wrap">
+                            <div class="report-wrapper-card_item">
+                            <div class="report-wrapper-card_circul1">
+                            </div> 
+                            <div class="report-wrapper-card_title">
+                                <h5 class="text--title">Иван Федотов</h5>
+                                23 февраля 2019 в 14:08
+                            </div>
+                        </div>
+                        <div class="report-wrapper-card_span">
+                            <p class="text-report">Быстро и вкусно! Я ваш постоянный клиент. Спасибо) </p>
+                        </div>
+                        <div class="report-wrapper-card_img">
+                            <img src="img/report5.jpg" alt="">
+                            <span></span>
+                            <div class="report-wrapper-card_social">
+                                <img src="img/heart.svg" alt="">
+                                <div class="report-wrapper-span">
+                                    <img src="img/chat.svg" alt="">13
+                                </div>
+                                <img src="img/megaphone.svg" alt="">
+                            </div>
+                        </div>
+                        <button class="btn btn-report"><img src="img/vk-logo.svg" alt="">Подписаться</button>
+                    </div>
+                </div>
+
+                <div class="report-wrapper-card">
+                    <div class="report-wrapper-card_wrap">
+                        <div class="report-wrapper-card_item">
+                            <div class="report-wrapper-card_circul2">
+                            </div> 
+                            <div class="report-wrapper-card_title">
+                                <h5 class="text--title">Константин Кузнецов</h5>
+                                1 февраля 2018 в 6:38
+                            </div>
+                        </div>
+                        <div class="report-wrapper-card_span">
+                            <p class="text-report">Заказ делается легко, и доставка осуществляется в удобное время, можно выбрать узкий врeменной интервал.</p>
+                        </div>
+                        <div class="report-wrapper-card_img">
+                            <img src="img/report6.jpg" alt="">
+                            <span></span>
+                            <div class="report-wrapper-card_social">
+                                <img src="img/heart.svg" alt="">
+                                <div class="report-wrapper-span">
+                                    <img src="img/chat.svg" alt="">1
+                                </div>
+                                <img src="img/megaphone.svg" alt="">
+                            </div>
+                        </div>
+                        <button class="btn btn-report"><img src="img/vk-logo.svg" alt="">Подписаться</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper-info">
+                    <a class="text--white" href="#">Суши</a>
+                    <a class="text--white" href="#">Гунканы</a>
+                    <a class="text--white" href="#">Инари</a>
+                    <a class="text--white" href="#">Супы</a>
+                    <a class="text--white" href="#">Салаты</a>
+                    <a class="text--white" href="#">Горячие закуски</a>
+                    <a class="text--white" href="#">Десерты</a>
+                    <a class="text--white" href="#">Напитки</a>
+                    <a class="text--white" href="#">Дополнительно</a>
+                </div>
+                <div class="footer-wrapper-info">
+                    <a class="text--white" href="#">Сеты</a>
+                    <a href="#" class="text--blue">До 500 руб.</a>
+                    <a href="#" class="text--blue">До 1000 руб.(для двоих)</a>
+                    <a href="#" class="text--blue">До 1500 руб. (для двоих-троих</a>
+                    <a href="#" class="text--blue">До 2000 руб. (большая компания</a>
+                    <a href="#" class="text--blue">от 2000 руб. (очень большая<br> компания)</a>
+                </div>
+                <div class="footer-wrapper-info">
+                    <a class="text--white" href="#">Роллы</a>
+                    <a href="#" class="text--blue">Традиционные/Классические</a>
+                    <a href="#" class="text--blue">Простые</a>
+                    <a href="#" class="text--blue">Теплые</a>
+                    <a href="#" class="text--blue">Запеченые</a>
+                    <a href="#" class="text--blue">Вегитарианские</a>
+                </div>
+                <div class="footer-wrapper-info">
+                    <a class="text--white" href="#">Вок</a>
+                    <a href="#" class="text--blue">Яичная</a>
+                    <a href="#" class="text--blue">Удон</a>
+                    <a href="#" class="text--blue">Гречневая</a>
+                    <a href="#" class="text--blue">Стеклянная</a>
+                    <a href="#" class="text--blue">Рис</a>
+                </div>
+                <div class="footer-wrapper-info">
+                    <a class="text--white" href="#">Пицца</a>
+                    <a href="#" class="text--blue">Мясная</a>
+                    <a href="#" class="text--blue">Рыбная</a>
+                    <a href="#" class="text--blue">Сырная</a>
+                    <a href="#" class="text--blue">Вегитарианская</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class=popup-consultation data-modal>
+        <div class=popup-dialog>
+            <div class=popup-content>
+                <button class=popup-close>&times;</button>
+                <h4>Остались вопросы? Закажите обратный звонок</h4>
+                <div class=main-form>
+                    <form class=form action=# method=POST>
+                        <input type=text name=name placeholder="Ваше имя" required>
+                        <input type=text name=phone placeholder="Ваш телефон" required>
+                        <button class="button button-order">Получить консультацию</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-cart">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="close">&times;</button>
+            </div>
+    <!--             <div data-cart-empty class="alert alert-secondary" role="alert">
+                    Корзина пуста
+                </div> -->
+                <!-- /.modal-header -->
+                <div class="modal-body">
+                   
+                </div>
+                <!-- /.modal-body -->
+                <div class="modal-footer">
+                    <span class="modal-pricetag">0</span>
+                    <div class="footer-buttons">
+                        <button class="button button-off">Оформить заказ</button>
+                    </div>
+                </div>
+                <!-- /.modal-footer -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
+       
+        <!-- <script src="js/libs.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ 
+    <!-- <script src="js/calc.js"></script> -->
+        <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 60,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+                440: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 29,
+                },
+            },
+        });
+    </script>
+    <script  src="index.js"></script>
+
+</body>
+</html>    
+

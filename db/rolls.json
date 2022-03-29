@@ -1,0 +1,67 @@
+[
+    {
+        "id": "ro1",
+        "title": "Кунсей батакон",
+        "price": 260,
+        "img": "photo-5.jpg",
+        "weight": 250,
+        "itemsInBox": 8,
+        "kkal": 350,
+        "counter": 1
+    }, {
+        "id": "ro2",
+        "title": "Унари диру",
+        "price": 280,
+        "img": "photo-6.jpg",
+        "weight": 960,
+        "itemsInBox": 8,
+        "kkal": 800,
+        "counter": 1
+    }, {
+        "id": "ro3",
+        "title": "Филадельфия",
+        "price": 280,
+        "img": "photo-7.jpg",
+        "weight": 450,
+        "itemsInBox": 8,
+        "kkal": 400,
+        "counter": 1
+    }, {
+        "id": "ro4",
+        "title": "Мексиканский",
+        "price": 290,
+        "img": "photo-8.jpg",
+        "weight": 460,
+        "itemsInBox": 16,
+        "kkal": 490,
+        "counter": 1
+    },
+    {
+        "id": "ro5",
+        "title": "Обычный",
+        "price": 1590,
+        "img": "photo-7.jpg",
+        "weight": 960,
+        "itemsInBox": 24,
+        "kkal": 800,
+        "counter": 1
+    }, {
+        "id": "ro6",
+        "title": "Морской",
+        "price": 710,
+        "img": "photo-5.jpg",
+        "weight": 450,
+        "itemsInBox": 14,
+        "kkal": 400,
+        "counter": 1
+    }, {
+        "id": "ro7",
+        "title": "Хит",
+        "price": 490,
+        "img": "photo-8.jpg",
+        "weight": 460,
+        "itemsInBox": 16,
+        "kkal": 490,
+        "counter": 1
+    }
+  ]

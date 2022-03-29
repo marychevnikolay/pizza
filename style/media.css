@@ -1,0 +1,742 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .main-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .main-adress, .main-email {
+    padding: 0 50px;
+  }
+  .main-tel-work {
+    font-size: 13px;
+  }
+
+  .main-logo img {
+    width: 140px;
+    height: 60px;
+  }
+  .text--black {
+    font-size: 12px
+  }
+
+  .main-email img {
+    width: 15px;
+    height: 10px;
+  }
+
+  .main-tel-work p {
+    font-size: 9px;
+  }
+  .btn-main {
+    width: 139px;
+    height: 36px;
+    font-size: 11px; 
+  }
+  .nav-text {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+  .menu--list {
+    position: absolute;
+    flex-direction: column;
+    background-color: #e4e2e2;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    left:  -100%;
+    top:  10.6rem;
+
+  }
+  .menu--item {
+    padding: 5px 0;
+  }
+  .nav-text:hover {
+    background-color: transparent;
+    padding: 0;
+    color:  #84c604;
+  }
+
+
+  .menu--list.active {left:  0;}
+
+  .menu {
+    display: block;
+    cursor:  pointer;
+  }
+
+  .menu.active .menu--line:nth-child(2) {
+    opacity:  0;
+  }
+  .menu.active .menu--line:nth-child(1) {
+    transform:  translateY(8px) rotate(45deg);
+  }
+
+  .menu.active .menu--line:nth-child(3) {
+    transform:  translateY(-8px) rotate(-45deg);
+  }
+
+  .header-title {
+    padding-bottom: 100px;
+  }
+
+  .header-title p {
+    font-size: 30px;
+  }
+  .header-title-item h1 {
+    font-size: 75px;
+    padding-right: 50px;
+  }
+
+  .header-title-item p {
+    background-color: #c52024;
+    border-radius: 50%;
+    font-size: 25px;
+
+  }
+
+  .btn-header {
+    border-radius: 5px;
+    background-color: #fd4f10;
+    width: 246px;
+    height: 55px;
+    font-size: 11px;
+  } 
+  .catalog-wrapper-card {
+    width: 220px;
+    height: 430px;
+  }
+
+
+
+  .dignity-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 60px;
+  }
+
+  .dignity-wrapper-item {
+
+    max-width: 215px;
+    margin-top: 30px;
+  }
+
+  .dignity-wrapper-item img {
+    max-width: 105px;
+    max-height: 70px;
+  }
+
+
+  .report-wrapper {
+    flex-wrap:  wrap;
+    justify-content: center;        
+    /*padding-bottom: 112px;        */
+  }  
+  .report-wrapper-card {
+    margin: 20px 5px;
+ 
+  }
+
+}
+
+@media(max-width:  768px) {
+  .container {
+    max-width: 560px;
+  }
+  .inblock {
+    display: block
+  }
+  .block {
+    display: none;
+  }
+  .menu--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  center;
+  }
+  .title{
+    font-size: 30px;
+    padding: 0 15px;
+  }
+  .main-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .main-adress, .main-email {
+    padding: 0 20px;
+  }
+  .main-tel-work {
+    font-size: 13px;
+  }
+
+  .main-logo img {
+    width: 120px;
+    height: 45px;
+  }
+  .text--black {
+    font-size: 12px
+  }
+
+  .main-email img {
+    width: 15px;
+    height: 10px;
+  }
+
+  .menu--list {
+    top:  7rem;
+
+  }
+
+
+
+  .main-tel-work p {
+    font-size: 9px;
+  }
+  .btn-main {
+    width: 139px;
+    height: 36px;
+    font-size: 11px; 
+  }
+  .nav-text {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+ 
+
+  .image {
+    width: 80px;
+    height: 30px;
+  }
+  .text--gray {
+    font-size: 12px;
+   
+  }
+  .dignity-wrapper-item {
+    
+    max-width: 180px;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .dignity-wrapper-item img {
+    max-width: 75px;
+    max-height: 50px;
+  }
+  .text--white {
+    font-size: 11px;
+  }
+
+  .title--white{
+    font-size: 13px;  }
+
+  .text--blue{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 578px) {
+  .container {
+      width: 90%;
+  }
+  .header-title-item h1 {
+    font-size: 65px;
+  }  
+  .header-title-item p {
+    background-color: #c52024;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 90px;
+    height: 90px;
+  }
+  .food-row {
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+  }
+
+  .food-name {
+      font-weight: normal;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 32px;
+  }
+  .food-img {
+    width: 50px;
+    padding-right: 10px;
+  }
+  .food-price {
+      margin-left: auto;
+      margin-right: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 32px;
+  }
+  .counter-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 39px;
+      height: 32px;
+      background: #ffffff;
+      border: 1px solid #40a9ff;
+      box-sizing: border-box;
+      border-radius: 2px;
+      font-weight: normal;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      line-height: 22px;
+      color: #40a9ff;
+  }
+
+  .counter {
+      font-size: 14px;
+  }
+}
+
+@media (max-width:  480px) {
+  .main-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .main-adress, .main-email {
+    padding: 0 50px;
+  }
+  .main-tel-work {
+    font-size: 11px;
+  }
+
+  .main-logo img {
+    width: 140px;
+    height: 60px;
+  }
+  .text--black {
+    font-size: 11px
+  }
+
+  .main-email img {
+    width: 15px;
+    height: 10px;
+  }
+
+
+
+  .main-tel-work p {
+    font-size: 9px;
+  }
+  .btn-main {
+    width: 139px;
+    height: 36px;
+    font-size: 11px; 
+  }
+  .nav-text {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+  .menu--list {
+    top:  8rem;
+
+  }
+  .menu--item {
+    padding: 5px 0;
+  }
+  .nav-text:hover {
+    background-color: transparent;
+    padding: 0;
+    color:  #84c604;
+  }
+
+
+  .menu--list.active {left:  0;}
+
+  .menu {
+    display: block;
+    cursor:  pointer;
+  }
+
+  .menu.active .menu--line:nth-child(2) {
+    opacity:  0;
+  }
+  .menu.active .menu--line:nth-child(1) {
+    transform:  translateY(8px) rotate(45deg);
+  }
+
+  .menu.active .menu--line:nth-child(3) {
+    transform:  translateY(-8px) rotate(-45deg);
+  }
+  .btn-main {
+    width: 115px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+
+  .header-title {
+    padding-bottom: 100px;
+  }
+
+  .header-title p {
+    font-size: 14px;
+  }
+  .header-title-item h1 {
+    font-size: 45px;
+    padding-right: 20px;
+  }
+
+  .header-title-item p {
+    background-color: #c52024;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn-header {
+    width: 140px;
+    height: 35px;
+    font-size: 10px;
+  } 
+  .btn-cart {
+    font-size: 10px;
+    width: 140px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+  }
+  .cost {
+    font-size: 12px;
+  }
+
+  .catalog-wrapper-card {
+    width: 150px;
+    height: 390px;
+  }
+  .good--title {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 18px;
+    padding: 0 7px;
+  }
+  .image {
+    width: 60px;
+    height: 20px;
+  }
+  .radius-img {
+    height: 49%
+  }
+  .footer-wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px
+  
+  }
+
+  .footer-wrapper-info {
+    padding-top: 20px
+  }
+  .popup-consultation .form input,
+  .popup-consultation .form textarea {
+    
+    padding: 0.5rem 1.5rem;
+    font-size: 11px;
+  }
+    .popup-consultation .button-order {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .popup-consultation h4 {
+    font-size: 11px;
+    margin-bottom: 3.5rem;
+  }
+  .popup-close {
+    font-size: 2.5rem;
+    width: 4.5rem;
+    height: 7.5rem;
+ 
+  }
+  .popup-content {
+    padding: 2rem 6rem 5rem 6rem;
+  }
+
+
+
+  .modal {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      display: none;
+      z-index: 999;
+  }
+
+  .modal-auth {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      display: none;
+      z-index: 999;
+  }
+
+  .is-open {
+      display: flex;
+  }
+
+  .modal-dialog {
+      max-width: 780px;
+      width: 95%;
+      background: #ffffff;
+      border-radius: 5px;
+      margin: auto;
+      padding: 40px 45px;
+  }
+
+  .modal-dialog-auth {
+      width: auto;
+      position: relative;
+  }
+
+  .label-auth {
+      display: block;
+      margin: 30px;
+  }
+
+  .label-auth span {
+      width: 80px;
+      display: inline-block;
+  }
+  .modal-dialog {
+    max-width: 780px;
+    width: 95%;
+    background: #ffffff;
+    border-radius: 5px;
+    margin: auto;
+    padding: 30px 25px;
+  }
+  .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 45px;
+  }
+
+  .modal-title {
+      margin: 0;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 42px;
+  }
+
+  .close {
+      font-size: 36px;
+      border: none;
+      background-color: transparent;
+  }
+
+  .close-auth {
+      font-size: 36px;
+      border: none;
+      background-color: transparent;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+  }
+
+  .modal-body {
+      margin-bottom: 22px;
+  }
+  .food-img {
+    width: 35px;
+    padding-right: 5px
+  }
+
+  .food-name {
+      font-size: 11px;
+  }
+
+  .food-price {
+      margin-right: 10px;
+      font-size: 12px;
+  }
+  .catalog-wrapper-card_control {
+    width: 12px;
+    height: 12px;
+    font-size: 11px;
+  }
+
+  .catalog-wrapper-card_current {
+    font-size: 12px;
+    padding: 0 7px;
+  }
+
+  .counter {
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      line-height: 24px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .modal-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .modal-auth .modal-footer {
+      justify-content: flex-end;
+  }
+
+  .footer-buttons {
+      display: flex;
+      align-items: center;
+  }
+
+  .modal-pricetag {
+      background: #262626;
+      border-radius: 5px;
+      color: #ffffff;
+      padding: 4px 20px;
+      font-size: 12px;
+  }
+
+  .button-off {
+      width: 145px;
+      height: 31px;
+      font-size: 12px;
+  }
+}
+@media(max-width: 320px) {
+
+  .menu--list {
+    top:  9.8rem;
+  }
+  .header-title {
+    padding-bottom: 50px;
+  }
+
+  .header-title p {
+    font-size: 12px;
+  }
+  .header-title-item h1 {
+    font-size: 30px;
+    padding-right: 15px;
+  }
+
+  .header-title-item p {
+    background-color: #c52024;
+    border-radius: 50%;
+    font-size: 14px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn-header {
+    width: 120px;
+    height: 30px;
+    font-size: 10px;
+  } 
+
+  .goods__list{
+    gap: 10px;
+    -ms-grid-columns:(1fr)[1];
+    grid-template-columns:repeat(1, 1fr);
+  }
+
+ /* .radius-img {
+    width: 218px;
+  }*/
+  .btn-cart {
+    font-size: 10px;
+    width: 140px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+  }
+  .cost {
+    font-size: 12px;
+  }
+
+  .catalog-wrapper-card {
+    width: 220px;
+    height: 420px;
+    margin-top: 20px
+  }
+  .title {
+    font-size: 15px;
+  }
+  .image {
+    width: 45px;
+    height: 20px;
+  }
+  .footer-wrapper {
+    padding-left: 20px;
+    /*align-items: center;*/
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px
+  
+  }
+
+  .footer-wrapper-info {
+    padding-top: 20px
+  }
+  .title--white{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 1.714;
+    text-decoration: none;
+  }
+
+  .text--blue{
+    font-size: 11px;
+  }
+  .text--white {
+    font-size: 13px;
+  }
+
+  .report-wrapper-card {
+    width: 300px;
+    height: 522px;
+  }
+  .report-wrapper-card_wrap {
+    padding: 45px 15px 20px 25px;
+  
+  }
+  .text--title {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+  }
+  .text-report {
+    font-size: 12px;
+  }
+  .btn-report {
+    width: 200px
+  }
+
+
+    
+
+}

@@ -1,0 +1,179 @@
+[
+
+    {
+        "id": "1",
+         "category": "sets",
+        "name": "Сет №10",
+        "price": 2050,
+        "img": "photo-1.jpg",
+        "foodValue": "72 шт. | 1560 г. | 1700 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "2",
+        "category": "sets",
+        "name": "Сет №8",
+        "price": 1590,
+        "img": "photo-2.jpg",
+        "foodValue": "24 шт. | 960 г. | 800 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "3",
+        "category": "sets",
+        "name": "Сет №5",
+        "price": 510,
+        "img": "photo-3.jpg",
+        "foodValue": "14 шт. | 450 г. | 400 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "4",
+        "category": "sets",
+        "name": "Сет №6",
+        "price": 400,
+        "img": "photo-4.jpg",
+        "foodValue": "16 шт. | 460 г. | 490 Kkal",
+        "counter": 1
+    },
+    {
+        "id": "5",
+        "category": "sets",
+        "name": "Сет №8",
+        "price": 1590,
+        "img": "photo-2.jpg",
+        "foodValue": "33 см | 590 г. | 1490 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "6",
+        "category": "sets",
+        "name": "Сет №9",
+        "price": 710,
+        "img": "photo-1.jpg",
+        "foodValue": "33 см | 590 г. | 1490 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "7",
+        "category": "sets",
+        "name": "Сет №12",
+        "price": 490,
+        "img": "photo-3.jpg",
+        "foodValue": "33 см | 590 г. | 1490 Kkal",
+        "counter": 1
+    },
+
+
+    
+    {
+        "id": "new1",
+        "category": "rolls",
+        "name": "Кунсей батакон",
+        "price": 260,
+        "img": "photo-5.jpg",
+        "foodValue": "8 шт. | 250 г. | 350 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "new2",
+        "category": "rolls",
+        "name": "Унари диру",
+        "price": 280,
+        "img": "photo-6.jpg",
+        "foodValue": "8 шт. | 960 г. | 800 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "new3",
+        "category": "rolls",
+        "name": "Филадельфия",
+        "price": 280,
+        "img": "photo-7.jpg",
+        "foodValue": "8 шт. | 450 г. | 400 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "new4",
+        "category": "rolls",
+        "name": "Мексиканский",
+        "price": 290,
+        "img": "photo-8.jpg",
+        "foodValue": "8 шт. | 460 г. | 490 Kkal",
+        "counter": 1
+    },
+    
+    {
+        "id": "pi1",
+        "category": "pizzas",
+        "name": "Баварская",
+        "price": 480,
+        "img": "photo-9.jpg",
+        "foodValue": "33 см | 680 г. | 1350 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "pi2",
+        "category": "pizzas",
+        "name": "Вегетарианская",
+        "price": 1590,
+        "img": "photo-10.jpg",
+        "foodValue": "33 см | 755 г. | 1800 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "pi3",
+        "category": "pizzas",
+        "name": "Пепперони",
+        "price": 450,
+        "img": "photo-11.jpg",
+        "foodValue": "33 см | 615 г. | 1400 Kkal",
+        "counter": 1
+    }, 
+    {
+        "id": "pi4",
+        "category": "pizzas",
+        "name": "Классическая",
+        "price": 390,
+        "img": "photo-12.jpg",
+        "foodValue": "33 см | 590 г. | 1490 Kkal",        
+        "counter": 1
+    },
+    {
+        "id": "wo1",
+        "category": "woks",
+        "name": "С говядиной",
+        "price": 430,
+        "img": "photo-13.jpg",
+        "foodValue": "400 г. | 1350 kkal",
+        "counter": 1
+    },
+    {
+        "id": "wo2",
+        "category": "woks",
+        "name": "С курицей",
+        "price": 290,
+        "img": "photo-14.jpg",
+        "foodValue": "400 г. | 1350 kkal",
+        "counter": 1
+    },
+    {
+        "id": "wo3",
+        "category": "woks",
+        "name": "С морепродуктами",
+        "price": 430,
+        "img": "photo-15.jpg",
+        "foodValue": "400 г. | 1350 kkal",
+        "counter": 1
+    },
+    {
+        "id": "wo4",
+        "category": "woks",
+        "name": "С овощами",
+        "price": 430,
+        "img": "photo-16.jpg",
+        "foodValue": "400 г. | 1350 kkal",
+        "counter": 1
+    }
+
+]
